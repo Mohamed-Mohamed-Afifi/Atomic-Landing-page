@@ -1,0 +1,29 @@
+.disable-btn{
+    @include reset;
+        background-color: map-get($features,mainColor);
+        width: fit-content;
+        border-radius:map-get($main,largeSize) ;
+        -webkit-border-radius:map-get($main,largeSize) ;
+        -moz-border-radius:map-get($main,largeSize) ;
+        -ms-border-radius:map-get($main,largeSize) ;
+        -o-border-radius:map-get($main,largeSize) ;
+        color:inherit;
+        font-size: map-get($main,mainSize);
+        font-family: 'Noto Serif JP', serif;
+        text-transform: uppercase;
+}
+.aws-heading{
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-color: map-get($main,mainColor);
+    background-image: map-get($main,gradient);
+    font-weight: bold;
+    font-size: map-get($main,largeSize)-1;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}

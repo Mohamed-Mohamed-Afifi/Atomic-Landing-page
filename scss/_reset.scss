@@ -1,0 +1,10 @@
+@mixin reset {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}

@@ -1,0 +1,44 @@
+@mixin flexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex($dir:"column",$jus:"flex-start",$alig:"flex-start"){
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jus;
+    align-items: $alig;
+}
+@mixin trans{
+    transition:all .35s ease-in-out;
+    -webkit-transition:all .35s ease-in-out;
+    -moz-transition:all .35s ease-in-out;
+    -ms-transition:all .35s ease-in-out;
+    -o-transition:all .35s ease-in-out;
+}
+@mixin cir-icon {
+    width: map-get($main,largeSize);
+    height:  map-get($main,largeSize);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: map-get($features,iconColor);
+    color: map-get($main,whiteColor);
+    padding: map-get($main,largeSize)-1;
+    font-size: map-get($main,mainSize)+.4;
+    @include flexcenter;
+}
+@mixin transCenter {
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin raduis($rad){
+    border-radius:$rad;
+    -webkit-border-radius:$rad;
+    -moz-border-radius:$rad;
+    -ms-border-radius:$rad;
+    -o-border-radius:$rad;
+}

@@ -1,0 +1,43 @@
+$main:(
+    "mainColor":rgb(45, 251, 255),
+    "subColor":#3c96ff,
+    "gradient":linear-gradient(0deg,#3c96ff 0%,#2dfbff 100%),
+    "scrollGradient":linear-gradient(to right, #3c96ff 0%, #2dfbff 100%),
+    "buble":linear-gradient(to right, #3c96ff6e 0%, #2dfbff8a 100%),
+    "whiteColor":white,
+    "largeSize":3rem,
+    "mainSize":1.1rem,
+    "midSize":.9rem,
+    "smallSize":.7rem,
+    "formColor":#ececec,
+);
+$nav:(
+    "mainColor":white
+);
+$features:(
+    "mainColor":#dbecff,
+    "subColor":#191c1e,
+    "iconColor":linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%),
+
+);
+$slider:(
+    "mainColor":#f6fbfd,
+);
+$footer:(
+    "mainColor":#a0a6ad,
+    "subColor":#3c9cfd,
+    "icons":rgb(161,167,174),
+    "gradient":linear-gradient(0deg,#3c96ff 0%,#2dfbff 100%),
+);
+$contact:(
+    "facebook":#4867aa,
+    "twitter":#1da1f2,
+    "gmail":#dd4d42,
+    "in":#007bb6,
+
+);
+
+$up:(
+    "mainColor":#00cff0
+)
+
